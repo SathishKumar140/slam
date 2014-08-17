@@ -39,7 +39,6 @@ f:\slambook\slambook\platforms\android\assets\www\index.html \
 f:\slambook\slambook\platforms\android\assets\www\js \
 f:\slambook\slambook\platforms\android\assets\www\main.html \
 f:\slambook\slambook\platforms\android\assets\www\plugins \
-f:\slambook\slambook\platforms\android\assets\www\scss \
 f:\slambook\slambook\platforms\android\assets\www\templates \
 f:\slambook\slambook\platforms\android\assets\www\theme.html \
 f:\slambook\slambook\platforms\android\assets\www\css\index.css \
@@ -62,10 +61,12 @@ f:\slambook\slambook\platforms\android\assets\www\img\icon3.png \
 f:\slambook\slambook\platforms\android\assets\www\img\icon4.png \
 f:\slambook\slambook\platforms\android\assets\www\img\icon5.png \
 f:\slambook\slambook\platforms\android\assets\www\img\logo.png \
+f:\slambook\slambook\platforms\android\assets\www\js\ajax \
 f:\slambook\slambook\platforms\android\assets\www\js\index.js \
 f:\slambook\slambook\platforms\android\assets\www\js\ionic \
 f:\slambook\slambook\platforms\android\assets\www\js\main \
 f:\slambook\slambook\platforms\android\assets\www\js\theme \
+f:\slambook\slambook\platforms\android\assets\www\js\ajax\jquery-1.7.1.min.js \
 f:\slambook\slambook\platforms\android\assets\www\js\ionic\ionic.bundle.js \
 f:\slambook\slambook\platforms\android\assets\www\js\ionic\ionic.bundle.min.js \
 f:\slambook\slambook\platforms\android\assets\www\js\ionic\ionic.js \
@@ -87,10 +88,6 @@ f:\slambook\slambook\platforms\android\assets\www\plugins\org.apache.cordova.con
 f:\slambook\slambook\platforms\android\assets\www\plugins\org.apache.cordova.contacts\www\ContactName.js \
 f:\slambook\slambook\platforms\android\assets\www\plugins\org.apache.cordova.contacts\www\ContactOrganization.js \
 f:\slambook\slambook\platforms\android\assets\www\plugins\org.apache.cordova.contacts\www\contacts.js \
-f:\slambook\slambook\platforms\android\assets\www\scss\app.scss \
-f:\slambook\slambook\platforms\android\assets\www\scss\ionic \
-f:\slambook\slambook\platforms\android\assets\www\scss\ionic\ionic.css \
-f:\slambook\slambook\platforms\android\assets\www\scss\ionic\ionic.min.css \
 f:\slambook\slambook\platforms\android\assets\www\templates\main \
 f:\slambook\slambook\platforms\android\assets\www\templates\theme \
 f:\slambook\slambook\platforms\android\assets\www\templates\main\friend-detail.html \

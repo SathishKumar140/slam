@@ -4,16 +4,12 @@ angular.module('starter.services', [])
  * A simple example service that returns some data.
  */
 .factory('Friends', function() {
-  // Might use a resource here that returns a JSON array
-
-  // Some fake testing data
                 var friends =[];  
                 var contactList = new ContactFindOptions(); 
                 contactList.filter=""; 
                 contactList.multiple=true;
                 var fields = ["*"];  //"*" will return all contact fields
-                navigator.contacts.find(fields,  getContactFields,onError, contactList);
-
+                navigator.contacts.find(fields,getContactFields,onError, contactList);
                 function getContactFields(contacts) {
                               
                       for (var i=0; i<contacts.length; i++)
