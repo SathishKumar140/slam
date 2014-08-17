@@ -13,6 +13,34 @@
         <script src="js/main/controllers.js"></script>
         <script src="js/main/services.js"></script>
         <title>SlamBook</title> 
+        <script type="text/javascript">
+         var friends =[];
+
+        document.addEventListener("deviceready", getContactList, false); 
+
+            // device APIs are available
+
+           function getContactList() {
+                var contactList = new ContactFindOptions(); 
+                contactList.filter=""; 
+                contactList.multiple=true;
+                var fields = ["*"];  //"*" will return all contact fields
+                navigator.contacts.find(fields,  getContactFields,onError, contactList);
+            }
+
+                function getContactFields(contacts) {
+                              
+                      for (var i=0; i<contacts.length; i++)
+                      {
+                             //alert(contacts.length);
+                             //alert("Name:" + contacts[i].displayName + "\n");
+                             friends[i] ={ id: i, name: contacts[i].displayName };
+                      }
+                  }
+                function onError(contactError) {
+                      alert('onError!');
+                  }
+        </script>
     </head>
     <body ng-app="starter" animation="slide-left-right-ios7" >
         <ion-nav-bar class="bar-stable nav-title-slide-ios7 bar-calm">
