@@ -1,0 +1,17 @@
+body 
+{
+	background:#31302b;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.app1
+{
+	position:absolute;             /* position in the center of the screen */
+    left:50%;
+    top:50%;
+    height:50px;                   /* text area height */
+    width:250px;                   /* text area width */
+    text-align:center;
+    padding:0px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    margin:-115px 0px 0px -112px;
+}
